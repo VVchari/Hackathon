@@ -1,5 +1,5 @@
 // Groq API Key from .env file
-GROQ_API_KEY = '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';
+GROQ_API_KEY = process.env.GROQ_API_KEY;
 
 // Function to call Groq API for resume parsing
 const parseResume = async (resumeText) => {

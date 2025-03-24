@@ -1,6 +1,6 @@
 const axios = require('axios');
 require('dotenv').config();
-GROQ_API_KEY = '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';
+GROQ_API_KEY = process.env.GROQ_API_KEY;
 async function parseResume(resumeText) {
   const prompt = `
     You are a resume parser. Extract in valid JSON:
