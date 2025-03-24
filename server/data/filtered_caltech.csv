@@ -1,0 +1,86 @@
+University,Degree,Course Name,Credits,College Course Cost ($),College Course Time (Weeks),Alternative Path 1,Alt 1 Cost ($),Alt 1 Time (Weeks),Alternative Path 2,Alt 2 Cost ($),Alt 2 Time (Weeks),Fresher,Alt 3
+Caltech,Business Administration,Global Economics,6,1249,13,AP Global Economics exam,377,1,edX Global Economics certificate,416,6,1,
+Caltech,Business Administration,Risk Management,4,822,7,CLEP Risk Management exam,221,1,Coursera Risk Management certificate,159,3,0,
+Caltech,Business Administration,Leadership and Ethics,3,620,8,CLEP Leadership and Ethics exam,469,1,Coursera Leadership and Ethics certificate,266,5,0,
+Caltech,Business Administration,Entrepreneurship Development,4,1096,7,DSST Entrepreneurship Development exam,416,1,Coursera Entrepreneurship Development certificate,263,6,0,
+Caltech,Business Administration,International Business,9,1177,14,AP International Business exam,429,1,edX International Business certificate,526,6,1,
+Caltech,Business Administration,Operations Management,3,1420,10,,,,,,,0,Marketing Manager
+Caltech,Business Administration,Financial Modeling,9,1092,11,CLEP Financial Modeling exam,249,1,Coursera Financial Modeling certificate,377,4,0,Marketing Manager
+Caltech,Business Administration,Supply Chain Management,6,865,7,AP Supply Chain Management exam,349,1,Coursera Supply Chain Management certificate,226,3,1,Business Analyst
+Caltech,Business Administration,Project Management,8,1018,11,CLEP Project Management exam,236,1,edX Project Management certificate,265,6,0,Business Analyst
+Caltech,Business Administration,Customer Relationship Management,9,899,10,DSST Customer Relationship Management exam,570,1,Coursera Customer Relationship Management certificate,280,4,0,
+Caltech,Business Administration,Venture Capital,3,751,14,CLEP Venture Capital exam,263,1,Coursera Venture Capital certificate,519,6,0,Business Analyst
+Caltech,Business Administration,Business Analytics,6,1273,14,DSST Business Analytics exam,352,1,Coursera Business Analytics certificate,572,6,0,
+Caltech,Business Administration,Strategic Planning,8,627,11,DSST Strategic Planning exam,225,1,Coursera Strategic Planning certificate,417,5,0,
+Caltech,Business Administration,Corporate Finance,4,601,11,,,,,,,0,Marketing Manager
+Caltech,Business Administration,Digital Business Strategy,6,666,10,CLEP Digital Business Strategy exam,541,1,Coursera Digital Business Strategy certificate,456,6,0,Operations Coordinator
+Caltech,Business Administration,Business Law,8,887,8,DSST Business Law exam,441,1,Coursera Business Law certificate,446,5,0,
+Caltech,Business Administration,Mergers and Acquisitions,9,1446,14,CLEP Mergers and Acquisitions exam,321,1,Coursera Mergers and Acquisitions certificate,306,3,0,
+Caltech,Business Administration,Data Analytics for Business,8,1332,8,,,,,,,0,Business Analyst
+Caltech,Business Administration,Advanced Topics in Business Administration 1,3,722,13,DSST Advanced Topics in Business Administration 1 exam,576,1,Coursera Advanced Topics in Business Administration 1 certificate,487,3,0,Operations Coordinator
+Caltech,Business Administration,Marketing Strategy,4,1375,7,,,,,,,0,
+Caltech,Computer Science,Artificial Intelligence,6,702,12,CLEP Artificial Intelligence exam,415,1,AWS Artificial Intelligence certificate,586,3,0,
+Caltech,Computer Science,Mobile App Development,7,758,10,CLEP Mobile App Development exam,216,1,Google Mobile App Development certificate,593,6,0,Data Analyst
+Caltech,Computer Science,Internet of Things (IoT),3,1282,8,,,,,,,0,
+Caltech,Computer Science,Software Testing and Quality Assurance,9,903,12,DSST Software Testing and Quality Assurance exam,251,1,IBM Software Testing and Quality Assurance certificate,175,6,0,Data Analyst
+Caltech,Computer Science,Cloud Computing,3,710,6,AP Cloud Computing exam,353,1,AWS Cloud Computing certificate,536,6,1,Software Engineer
+Caltech,Computer Science,Cybersecurity Principles,9,822,8,AP Cybersecurity Principles exam,441,1,IBM Cybersecurity Principles certificate,564,6,1,Data Analyst
+Caltech,Computer Science,Machine Learning Operations,7,771,11,AP Machine Learning Operations exam,288,1,IBM Machine Learning Operations certificate,330,4,1,
+Caltech,Computer Science,Natural Language Processing,4,1383,13,DSST Natural Language Processing exam,376,1,IBM Natural Language Processing certificate,455,3,0,Data Analyst
+Caltech,Computer Science,Web Development,3,1259,11,,,,,,,0,
+Caltech,Computer Science,Blockchain Fundamentals,4,1063,13,AP Blockchain Fundamentals exam,492,1,IBM Blockchain Fundamentals certificate,350,3,1,Software Engineer
+Caltech,Computer Science,Programming in Python,7,903,6,,,,,,,0,
+Caltech,Computer Science,Advanced Database Management,6,669,13,,,,,,,0,Data Analyst
+Caltech,Computer Science,Data Science Fundamentals,4,545,8,CLEP Data Science Fundamentals exam,221,1,Google Data Science Fundamentals certificate,490,6,0,Data Analyst
+Caltech,Computer Science,Computer Vision,7,525,10,,,,,,,0,Data Analyst
+Caltech,Computer Science,Operating Systems,3,1158,7,DSST Operating Systems exam,381,1,AWS Operating Systems certificate,411,4,0,Data Analyst
+Caltech,Computer Science,API Development,4,1476,9,AP API Development exam,316,1,Google API Development certificate,233,3,1,
+Caltech,Computer Science,Software Architecture,7,681,9,,,,,,,0,
+Caltech,Computer Science,Network Security,4,885,7,,,,,,,0,
+Caltech,Computer Science,Big Data Analytics,6,1494,12,CLEP Big Data Analytics exam,315,1,AWS Big Data Analytics certificate,205,5,0,
+Caltech,Computer Science,Deep Learning,9,979,13,DSST Deep Learning exam,348,1,AWS Deep Learning certificate,248,5,0,Cybersecurity Specialist
+Caltech,Computer Science,Advanced Topics in Computer Science 1,7,1446,9,AP Advanced Topics in Computer Science 1 exam,449,1,AWS Advanced Topics in Computer Science 1 certificate,368,3,1,Data Analyst
+Caltech,Electrical Engineering,Circuit Analysis,4,1365,10,DSST Circuit Analysis exam,445,1,edX Circuit Analysis certificate,180,4,0,
+Caltech,Electrical Engineering,Robotics and Automation,8,1020,6,,,,,,,0,
+Caltech,Electrical Engineering,Control Systems,7,700,10,,,,,,,0,
+Caltech,Electrical Engineering,Machine Learning for Electrical Systems,7,827,11,,,,,,,0,Power Systems Engineer
+Caltech,Electrical Engineering,Communication Systems,5,729,6,,,,,,,0,
+Caltech,Electrical Engineering,Advanced Instrumentation,7,648,8,AP Advanced Instrumentation exam,330,1,Coursera Advanced Instrumentation certificate,263,6,1,Embedded Systems Engineer
+Caltech,Electrical Engineering,High Voltage Engineering,4,755,10,,,,,,,0,
+Caltech,Electrical Engineering,Analog Electronics,5,1037,9,DSST Analog Electronics exam,531,1,Coursera Analog Electronics certificate,439,4,0,
+Caltech,Electrical Engineering,Microelectronics,8,945,9,AP Microelectronics exam,307,1,Coursera Microelectronics certificate,180,4,1,
+Caltech,Electrical Engineering,Signal Transmission,4,1010,11,CLEP Signal Transmission exam,275,1,edX Signal Transmission certificate,368,4,0,Electrical Engineer
+Caltech,Electrical Engineering,Electrical Safety,4,1418,10,,,,,,,0,
+Caltech,Electrical Engineering,Embedded Systems,8,990,8,AP Embedded Systems exam,442,1,Coursera Embedded Systems certificate,260,6,1,
+Caltech,Electrical Engineering,Renewable Energy Systems,7,1261,7,DSST Renewable Energy Systems exam,210,1,Coursera Renewable Energy Systems certificate,570,5,0,Power Systems Engineer
+Caltech,Electrical Engineering,Smart Grid Technology,3,1205,13,CLEP Smart Grid Technology exam,507,1,Coursera Smart Grid Technology certificate,474,4,0,Power Systems Engineer
+Caltech,Electrical Engineering,Digital Signal Processing,4,851,13,AP Digital Signal Processing exam,368,1,Coursera Digital Signal Processing certificate,222,3,1,
+Caltech,Electrical Engineering,VLSI Design,3,1146,7,CLEP VLSI Design exam,434,1,edX VLSI Design certificate,386,5,0,
+Caltech,Electrical Engineering,Power Systems,5,948,10,CLEP Power Systems exam,446,1,Coursera Power Systems certificate,556,3,0,Power Systems Engineer
+Caltech,Electrical Engineering,Industrial Automation,7,746,11,DSST Industrial Automation exam,576,1,edX Industrial Automation certificate,376,4,0,
+Caltech,Electrical Engineering,Power Electronics,5,1258,13,AP Power Electronics exam,590,1,Coursera Power Electronics certificate,374,5,1,
+Caltech,Electrical Engineering,Advanced Topics in Electrical Engineering 1,4,1208,9,CLEP Advanced Topics in Electrical Engineering 1 exam,384,1,Coursera Advanced Topics in Electrical Engineering 1 certificate,399,6,0,Embedded Systems Engineer
+Caltech,Electrical Engineering,Electrical Machines,8,746,9,CLEP Electrical Machines exam,427,1,Coursera Electrical Machines certificate,341,4,0,Embedded Systems Engineer
+Caltech,Electrical Engineering,Advanced Topics in Electrical Engineering 2,5,1173,7,AP Advanced Topics in Electrical Engineering 2 exam,283,1,Coursera Advanced Topics in Electrical Engineering 2 certificate,322,4,1,
+Caltech,Mechanical Engineering,Manufacturing Processes,4,983,12,,,,,,,0,
+Caltech,Mechanical Engineering,Renewable Energy Systems,7,906,11,AP Renewable Energy Systems exam,274,1,Google Renewable Energy Systems certificate,574,4,1,
+Caltech,Mechanical Engineering,Industrial Automation,4,1194,8,DSST Industrial Automation exam,588,1,IBM Industrial Automation certificate,385,5,0,Manufacturing Engineer
+Caltech,Mechanical Engineering,Additive Manufacturing,5,555,9,,,,,,,0,Mechanical Design Engineer
+Caltech,Mechanical Engineering,Control Systems,5,1116,9,,,,,,,0,Automotive Engineer
+Caltech,Mechanical Engineering,Hydraulics and Pneumatics,7,549,6,CLEP Physics exam,390,1,AWS Hydraulics and Pneumatics certificate,390,5,0,Manufacturing Engineer
+Caltech,Mechanical Engineering,Heat Transfer,4,1482,7,CLEP Heat Transfer exam,431,1,Google Heat Transfer certificate,350,6,0,
+Caltech,Mechanical Engineering,Mechanical Vibrations,6,1314,6,CLEP Mechanical Vibrations exam,319,1,IBM Mechanical Vibrations certificate,423,3,0,Automotive Engineer
+Caltech,Mechanical Engineering,Machine Design,2,736,12,AP Machine Design exam,417,1,AWS Machine Design certificate,393,3,1,
+Caltech,Mechanical Engineering,Engineering Economics,7,708,8,CLEP Engineering Economics exam,438,1,Google Engineering Economics certificate,207,3,0,Mechanical Design Engineer
+Caltech,Mechanical Engineering,Welding Technology,6,1047,11,CLEP Welding Technology exam,544,1,IBM Welding Technology certificate,465,6,0,
+Caltech,Mechanical Engineering,Thermodynamics,5,1491,11,DSST Thermodynamics exam,307,1,IBM Thermodynamics certificate,423,6,0,Mechanical Design Engineer
+Caltech,Mechanical Engineering,Finite Element Analysis,7,956,9,AP Finite Element Analysis exam,526,1,Google Finite Element Analysis certificate,493,3,1,
+Caltech,Mechanical Engineering,Fluid Mechanics,6,1464,11,,,,,,,0,Automotive Engineer
+Caltech,Mechanical Engineering,Robotics,6,1416,9,DSST Robotics exam,372,1,Google Robotics certificate,407,5,0,
+Caltech,Mechanical Engineering,Material Science,7,1188,9,CLEP Material Science exam,565,1,Google Material Science certificate,197,5,0,
+Caltech,Mechanical Engineering,Automobile Engineering,5,1280,12,DSST Automobile Engineering exam,272,1,IBM Automobile Engineering certificate,429,4,0,
+Caltech,Mechanical Engineering,Instrumentation and Measurement,4,877,8,CLEP Instrumentation and Measurement exam,204,1,Google Instrumentation and Measurement certificate,417,4,0,Manufacturing Engineer
+Caltech,Mechanical Engineering,Computer-Aided Design (CAD),5,1303,12,DSST Computer-Aided Design (CAD) exam,430,1,IBM Computer-Aided Design (CAD) certificate,593,4,0,
+Caltech,Mechanical Engineering,Advanced Topics in Mechanical Engineering 2,7,1186,9,DSST Advanced Topics in Mechanical Engineering 2 exam,260,1,AWS Advanced Topics in Mechanical Engineering 2 certificate,154,4,0,Automotive Engineer
+Caltech,Mechanical Engineering,Product Lifecycle Management,5,1050,8,AP Product Lifecycle Management exam,251,1,IBM Product Lifecycle Management certificate,158,6,1,Mechanical Design Engineer
+Caltech,Mechanical Engineering,Advanced Topics in Mechanical Engineering 1,5,625,11,,,,,,,0,Mechanical Design Engineer

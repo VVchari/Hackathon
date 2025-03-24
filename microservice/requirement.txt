@@ -1,0 +1,6 @@
+flask==3.1.0
+sentence-transformers==3.4.1
+transformers==4.50.0
+scikit-learn==1.6.1
+numpy==1.26.4  # Older than 2.0.2, compatible with torch 2.4.1
+torch==2.4.1   # Supports flatten_with_keys_fn, compatible with transformers 4.50.0

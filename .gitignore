@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+/client/my-app/node_modules/
+/server/node_modules/
+
+# Environment variables
+.env
+/server/.env
+/client/my-app/.env
+
+# Python
+/microservice/venv/
+/microservice/__pycache__/
+*.pyc
+
+# Production build
+/client/my-app/dist/
+/client/my-app/build/
+
+# OS files
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
