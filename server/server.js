@@ -126,35 +126,98 @@ app.listen(port, () => {
 });
 
 async function generateDegreePlan(remainingCourses, studentData) {
-  //   const prompt = `
-  //     Suggest a fast-track plan for ${studentData.degree} at ${
-  //     studentData.university
-  //   }.
-  //     Completed: ${studentData.completed_credits}/${
-  //     studentData.total_required_credits
-  //   }.
-  //     Remaining courses: ${JSON.stringify(remainingCourses, null, 2)}.
-  //   `;
-  const prompt = `
-A student wants to fast-track their ${studentData.degree} at ${
+  const prompt = `The student is currently enrolled at ${
     studentData.university
   }.
 They have completed ${studentData.completed_credits} out of ${
     studentData.total_required_credits
   } credits.
 
-Given these alternative credit options:
+### **Objective:**
+✅ **Ignore all completed courses** – These should NOT be included in the plan.  
+✅ **Ignore exams/certificates for completed courses** – If a course has already been taken, do NOT suggest its exam or certification.  
+✅ **Optimize for time and cost** – Always prioritize the fastest and most affordable option (Course, Exam, or Certificate) for each remaining subject.  
+✅ **Ensure the student completes the total required credits** while minimizing effort.  
+
+### **Alternative Credit Options Available:**  
+\`\`\`json
 ${JSON.stringify(remainingCourses, null, 2)}
+\`\`\`
 
-Please provide:
-1. A term-by-term fast-track plan
-2. Alternative credit options (CLEP, AP, certifications) that can save time
-3. Estimated time savings in weeks
-4. Cost comparison between traditional courses and alternative paths
-5. Prerequisites and course sequencing considerations
+---
 
-Focus on the fastest and most cost-effective way to complete the degree.
+## **Degree Completion Plan**
+Based on the provided information, I've designed a **term-by-term fast-track plan** to ensure the student **efficiently completes all remaining credits**.
+
+---
+
+## **Term-by-Term Fast-Track Plan**  
+
+**Term 1:**  
+1. **Recommended Path (Course OR Alternative Credit Option per Subject)**  
+   - ✅ **Subject 1** → Most Cost & Time-Effective Choice (Course/Exam/Certificate) – X credits  
+   - ✅ **Subject 2** → Most Cost & Time-Effective Choice (Course/Exam/Certificate) – X credits  
+   - **Total credits: X**  
+
+**Estimated time savings:** X weeks  
+**Total credits earned:** X  
+
+---
+
+**Term 2:**  
+1. **Recommended Path (Course OR Alternative Credit Option per Subject)**  
+   - ✅ **Subject 3** → Most Cost & Time-Effective Choice (Course/Exam/Certificate) – X credits  
+   - ✅ **Subject 4** → Most Cost & Time-Effective Choice (Course/Exam/Certificate) – X credits  
+   - **Total credits: X**  
+
+**Estimated time savings:** X weeks  
+**Total credits earned:** X  
+
+---
+
+### **Final Credit Check**
+✅ **Total required credits:** ${studentData.total_required_credits}  
+✅ **Total earned credits after this plan:** ${
+    studentData.total_required_credits
+  }  
+✅ **All remaining credits are completed using the fastest and most cost-effective approach.**  
+
+---
+
+## **Estimated Time & Cost Savings:**  
+- **Time Savings:** By using alternative credit options, the student can save approximately **X weeks**.  
+- **Cost Comparison:**  
+  - **Traditional courses:** $X - $Y per year  
+  - **Alternative credit options:**  
+    - CLEP exams: $X per exam  
+    - AP exams: $X per exam  
+    - DSST exams: $X per exam  
+    - Certifications: $X per certificate  
+
+**Estimated total cost for alternative credit options:** $X - $Y  
+
+---
+
+## **Prerequisites & Course Sequencing Considerations:**  
+- Some courses may have **prerequisites** that must be completed before taking alternative credit options.  
+- Course sequencing must be considered (e.g., Finite Element Analysis may require a math background).  
+- Students should consult **academic advisors** to ensure proper course alignment.  
+
+By following this **fast-track plan**, the student will **fully complete their degree** at **${
+    studentData.university
+  }** in the shortest time possible while minimizing costs.
+
+---
+
+### **STRICT GUIDELINES – DO NOT DEVIATE FROM THIS FORMAT:**  
+✅ **Ensure all remaining credits are completed.**  
+✅ **DO NOT recommend completed courses, their exams, or their certificates.**  
+✅ **Choose the fastest and most cost-effective option for each subject (course OR alternative credit).**  
+✅ **Maintain the bold headings, bullet points, and fixed labels as shown.**  
+✅ **Alternative credit options should ONLY be suggested if the full course is NOT selected.**  
+✅ **Keep the term structure, estimated time savings, and cost breakdown exactly as shown.**  
 `;
+
   const response = await axios.post(
     'https://api.groq.com/openai/v1/chat/completions',
     {
