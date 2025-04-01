@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgba(17, 24, 39, 255);
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-profile {
+  font-size: 16px;
+}
+
+/* Upload Box */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.upload-box {
+  background: rgba(31, 41, 55, 255);
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+.h2 {
+  margin-bottom: 20px;
+}
+
+/* Drop Area */
+.drop-area {
+  border: 2px dashed #3b4252;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.upload-icon {
+  color: rgba(156, 163, 175, 255);
+}
+
+#file-upload {
+  display: none;
+}
+
+.choose-file-btn {
+  background: rgba(55, 65, 81, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.choose-file-btn:hover {
+  background: rgba(55, 65, 81, 255);
+}
+
+/* File Info */
+.file-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #22272e;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.check-icon {
+  color: #22c55e;
+}
+
+.status {
+  color: #bbb;
+}
+
+/* Process Button */
+.process-btn {
+  background: rgba(55, 65, 81, 255);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+}
+
+.process-btn:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}

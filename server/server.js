@@ -92,9 +92,10 @@ app.post('/api/process-resume', async (req, res) => {
 
     // Generate degree plan
     let degreePlan;
+    let remainingCourses;
     try {
-      const remainingCourses = standardCourses.filter(
-        (course) => !completed_courses.includes(course['course name'])
+      remainingCourses = standardCourses.filter(
+        (course) => !completed_courses.includes(course['course_name'])
       );
       const studentData = {
         university: parsedResume.UniversityName,
@@ -113,7 +114,9 @@ app.post('/api/process-resume', async (req, res) => {
     res.json({
       parsedResume,
       completedCourses: completed_courses,
+      completedCredits: standard_credits,
       fastTrackPlan,
+      remainingCourses,
       degreePlan
     });
   } catch (error) {

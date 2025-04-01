@@ -4,6 +4,12 @@ GROQ_API_KEY = process.env.GROQ_API_KEY;
 async function parseResume(resumeText) {
   const prompt = `
     You are a resume parser. Extract in valid JSON:
+    - Student Id: (string)
+    - Name: (string)
+    - Email: (string)
+    - PhoneNumber: (string)
+    - Location: (string)
+    - ExpectedGraduation: (string)
     - UniversityName (string)
     - DegreeName (string)
     - Skills (array)

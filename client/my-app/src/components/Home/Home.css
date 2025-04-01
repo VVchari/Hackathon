@@ -1,0 +1,110 @@
+/* General Styles */
+.home-container {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #000000, #121212);
+  color: white;
+  min-height: 100vh;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-self: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+}
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #ddd;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.sign-in {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.get-started {
+  background: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.get-started:hover {
+  background: #ccc;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+/* Hero Section */
+.hero {
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.Navbar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.start-journey {
+  margin-top: 30px;
+  background: white;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start-journey:hover {
+  background: #ccc;
+}
